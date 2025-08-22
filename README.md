@@ -1,12 +1,37 @@
-# React + Vite
+# Student Records - MERN Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is a **MERN stack mini project** that manages student records.  
+It includes both **frontend (React + Tailwind)** and **backend (Node.js + Express + MongoDB)**.  
+The app allows users to perform all **CRUD operations** (Create, Read, Update, Delete) on student data.  
 
-Currently, two official plugins are available:
+## Features
+- Add new student record
+- View all student records
+- Update existing student details
+- Delete student records
+- Data stored in MongoDB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- Frontend: React.js + Tailwind CSS
+- Backend: Node.js + Express.js
+- Database: MongoDB (Atlas or Local)
 
-## Expanding the ESLint configuration
+## Notes
+- This is a **mini project** under the MERN course.
+- The app is **non-responsive** (design not specified).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run
+### Backend
+1. Navigate to backend folder: `cd backend`
+2. Install dependencies: `npm install`
+3. Add your MongoDB URI in `.env` file
+4. Run server: `npm run dev` (or `node server.js`)
+5. API will run at: `http://localhost:5000`
+
+### Frontend
+1. Navigate to frontend folder: `cd frontend`
+2. Install dependencies: `npm install`
+3. Start frontend: `npm start`
+4. Open in browser: `http://localhost:3000`
+
